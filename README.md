@@ -34,21 +34,14 @@
 
 <br />
 
-## MVC
-- 해당 프로젝트에 MVC 패턴을 적용한다면 어떤식으로 적용할 것인가
-  
-### Model
+## 예상 파일 구조 
+src/
+|-- components/
+|   |-- Map/
+|       |-- MapContainer.js
+|-- utils/
+|   |-- KakaoMapInitializer.js
+|   |-- MapEventHandlers.js
+|   |-- MapUI.js
+|-- index.js
 
-- 상태 및 데이터 관리
-- 현재 클릭된 지점의 좌표
-- 그려진 요소들의 정보 (선, 지점 등)
-  
-### View
-- 사용자 인터페이스 표시 및 업데이트
-- 지도 및 그리기 관련 UI 요소
-- 정보창, 클릭한 지점 등의 시각적 표현
-  
-### Controller
-- 사용자 입력 및 동작 관리
-- 버튼 클릭, 지도 클릭 등의 이벤트 핸들링
-- 상태 변경에 따른 뷰 업데이트 요청
